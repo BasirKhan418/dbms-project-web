@@ -6,14 +6,14 @@ import "../App.css";
 const Slider = () => {
   return (
     <div>
-      <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleIndicators" className="carousel slide my-10 mx-10" data-bs-ride="carousel">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
  
-  <div className="carousel-inner " style={{height:400}}>
+  <div className="carousel-inner my-10" style={{height:400}}>
   
     <div className="carousel-item active">
     <h1 className='text-center my-3 mx-3 font'>

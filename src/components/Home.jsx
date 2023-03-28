@@ -9,7 +9,7 @@ const Home = () => {
     <div className="container">
      <Slider/>
      </div>
-     <div className="container">
+     <div className="container my-10">
 
      
      <div className="card">
