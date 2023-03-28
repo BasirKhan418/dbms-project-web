@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+.font{
+  font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+color:black;
+background-color: aliceblue;
+border: 2px solid whitesmoke;
+border-radius: 10px;
+box-sizing: border-box;
+box-shadow: 5px 10px 5px 5px #e5dddd;
+}
+.card1{
+  width:18rem;
+}
+.card-img{
+  height:250px;
+}
+.cardcon{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.yt{
+  width:500px;
+  height: 315px;;
+}
+.display{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+@media only screen and (max-width: 971px) {
+  .cardcon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .yt{
+    width:300px;
+    height: 315px;
+  }
+}
