@@ -104,6 +104,25 @@ value={form.message} onChange={handleChange}></textarea>
     <code className="card-text">use E_commmerce_Database;</code>
   </div>
 </div>
+      <div className="card my-3">
+  <div className="card-body">
+    <h5 className="card-title">Phase 1</h5>
+    <h6 className="card-subtitle mb-2 text-muted">Create OrderDetails</h6>
+    <code className="card-text">create table userdetails(<br/>
+user_id varchar(200) not null unique,<br/>
+user_name varchar(200) not null,<br/>
+user_email varchar(200) not null,<br/>
+user_password varchar(200) not null,<br/>
+user_phone varchar(12) not null,<br/>
+user_address varchar(200) not null
+);<br/>
+insert into userdetails<br/>
+values("ui111","priyanshu","priyanshu@gmail.com","pri1234","9758485876","Rachi,Jharkhand"),<br/>
+("ui112","basir","basir121@gmail.com","basiri1287","9748485877","Cuttack,Odisha"),<br/>
+("ui113","sartaj","sartaj@gmail.com","sartaji1895","9335875459","Jatni,Odisha"),<br/>
+("ui114","sadab","sadab121@gmail.com","sadab8574","7077485236","Kendrapara,Odisha");</code>
+  </div>
+</div>
       </div>
     
       </>
