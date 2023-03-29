@@ -107,7 +107,7 @@ value={form.message} onChange={handleChange}></textarea>
       <div className="card my-3">
   <div className="card-body">
     <h5 className="card-title">Phase 1</h5>
-    <h6 className="card-subtitle mb-2 text-muted">Create OrderDetails</h6>
+    <h6 className="card-subtitle mb-2 text-muted">Create User Details</h6>
     <code className="card-text">create table userdetails(<br/>
 user_id varchar(200) not null unique,<br/>
 user_name varchar(200) not null,<br/>
