@@ -143,6 +143,26 @@ values("ui111","priyanshu","priyanshu@gmail.com","pri1234","9758485876","Rachi,J
 </code>
   </div>
 </div>
+      <div className="card my-3">
+  <div className="card-body">
+    <h5 className="card-title">Phase 2</h5>
+    <h6 className="card-subtitle mb-2 text-muted">Create Supplier Details</h6>
+    <code className="card-text">create table supplierdetails(<br/>
+supplier_id varchar(200) not null unique,<br/>
+supplier_name varchar(200) not null,<br/>
+supplier_email varchar(200) not null,<br/>
+supplier_password varchar(200) not null,<br/>
+supplier_phone varchar(12) not null,<br/>
+supplier_address varchar(200) not null,<br/>
+supplier_category varchar(200) not null,<br/>
+supplier_paymentmethod varchar(200) not null<br/>
+);<br/>
+insert into supplierdetails<br/>
+values("si211","Debashish Enterprises","debashis211@gmail.com","deb1234","9570020901","New Delhi,Delhi","Electronics","Bank IMPS"),<br/>
+("ui212","Hitesh Enterprises","hitesh212@gmail.com","hitesh5678","9570020910","Noida,UP","Electronics","Bank IMPS");<br/>
+</code>
+  </div>
+</div>
       </div>
     
       </>
