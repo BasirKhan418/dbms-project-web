@@ -14,15 +14,15 @@ const Timetable = () => {
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">Phase 1</th>
+    <tr className='bg-primary'>
+      <th scope="row" >Phase 1</th>
       <td>Create User Deatils</td>
       <td>1</td>
       <td>29 March 2023</td>
       <td>1 April 2023</td>
     </tr>
-    <tr>
-      <th scope="row">Phase 2</th>
+    <tr className='bg-danger'>
+      <th scope="row" >Phase 2</th>
       <td>Create Supplier Details</td>
       <td>1</td>
       <td>2 April 2023</td>

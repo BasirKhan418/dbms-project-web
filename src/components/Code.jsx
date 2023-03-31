@@ -150,16 +150,25 @@ values("ui111","priyanshu","priyanshu@gmail.com","pri1234","9758485876","Rachi,J
     <code className="card-text">create table supplierdetails(<br/>
 supplier_id varchar(200) not null unique,<br/>
 supplier_name varchar(200) not null,<br/>
+store_name varchar (200) not null,<br/>
 supplier_email varchar(200) not null,<br/>
 supplier_password varchar(200) not null,<br/>
 supplier_phone varchar(12) not null,<br/>
 supplier_address varchar(200) not null,<br/>
-supplier_category varchar(200) not null,<br/>
-supplier_paymentmethod varchar(200) not null<br/>
+supplier_paymentmethod varchar(200) not null,<br/>
+supply_categories varchar(200) not null<br/>
 );<br/>
+
 insert into supplierdetails<br/>
-values("si211","Debashish Enterprises","debashis211@gmail.com","deb1234","9570020901","New Delhi,Delhi","Electronics","Bank IMPS"),<br/>
-("ui212","Hitesh Enterprises","hitesh212@gmail.com","hitesh5678","9570020910","Noida,UP","Electronics","Bank IMPS");<br/>
+values("su3489","pritam","Pritam store of garments","pritam2389@gmail.com","pritam34","9643789211","New Delhi,Delhi","Cod/Upi/Net Banking/Card","men and women, kids wears"),<br/>
+("su5673","raghav","apollo pharmacy","apollo@gmail.com","3478you","8650365489","Bhubaneswar,Odisha","Cod/Upi/Net Banking/Card","medicine"),<br/>
+("su987","prerana","sugar cosmetics","preranastore@gmail.com","prerana456","9835673892","Ranchi,Jharkhand","Cod/Upi/Net Banking/Card","beauty products"),<br/>
+("su8734","tara","childrens toy store","tara0987@gmail.com","tara4563","8974536789","Nagpur,Maharashtra","Cod/Upi/Net Banking/Card","childrens toy"),<br/>
+("si211","Debashish","Debashish Enterprises","debashis211@gmail.com","deb1234","9570020901","New Delhi,Delhi","Cod/Upi/Net Banking/Card","Electronics"),<br/>
+("si212","Hitesh","Hitesh Enterprises","hitesh212@gmail.com","hitesh5678","9570020910","Noida,UP","Cod/Upi/Net Banking/Card","Electronics"),<br/>
+("si213","Niyaz","Specare Enterprises","Specare@gmail.com","specare65678","8093911366","Odisha,Cuttack","Cod/Upi/Net Banking/Card","Electronics"),<br/>
+("su0986","dibya","relince fresh","relince@gmail.com","dibya345","984367299","Banglore,Karnataka","Cod/Upi/Net Banking/Card","home supplies"),<br/>
+("su6783","ravi","rabindra store","rabinra@gmail.com","rabindra678","9087456732","Attapur,Hydrabad","Cod/Upi/Net Banking/Card","Appliances");
 </code>
   </div>
 </div>

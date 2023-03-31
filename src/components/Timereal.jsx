@@ -15,7 +15,7 @@ const Timereal = () => {
   <div className="card-body">
     <h5 className="card-title">Phase 1</h5>
     <h6 className="card-subtitle mb-2 text-muted">Create User Table</h6>
-    <p className="card-text">Parameters are :-user name, user id, user address ,user email,user password,user phone no.,user payment method</p>
+    <p className="card-text">Parameters are :-user name, user id, user address ,user email,user password,user phone no.,user payment method(stored in table using alter command)</p>
   </div>
 </div>
 <div className="card my-3">
@@ -29,14 +29,14 @@ const Timereal = () => {
   <div className="card-body">
     <h5 className="card-title">Phase 3</h5>
     <h6 className="card-subtitle mb-2 text-muted">Create Category Table</h6>
-    <p className="card-text">Parameters are :-Category id,Category Name ,Category Description</p>
+    <p className="card-text">Parameters are :-Category id,Category Name ,Category Description,Total no. of suppliers in this category (refer to supplier details)</p>
   </div>
 </div>
  <div className="card my-3">
   <div className="card-body">
     <h5 className="card-title">Phase 4</h5>
     <h6 className="card-subtitle mb-2 text-muted">Create Product Table</h6>
-    <p className="card-text">Parameters are :- Product id,sku,product name,product description category id,mrp,price,available size,available stock,avaialble colour,discount</p>
+    <p className="card-text">Parameters are :- Product id,sku,product name,product description category id,Category name,mrp,price,available size,available stock,avaialble colour,discount</p>
   </div>
 </div>
   <div className="card my-3">
