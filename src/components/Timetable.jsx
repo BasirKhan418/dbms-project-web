@@ -14,21 +14,21 @@ const Timetable = () => {
     </tr>
   </thead>
   <tbody>
-    <tr className='bg-primary'>
+    <tr className='bg-success text-light'>
       <th scope="row" >Phase 1</th>
       <td>Create User Deatils</td>
       <td>1</td>
       <td>29 March 2023</td>
       <td>1 April 2023</td>
     </tr>
-    <tr className='bg-danger'>
+    <tr className='bg-success text-light'>
       <th scope="row" >Phase 2</th>
       <td>Create Supplier Details</td>
       <td>1</td>
       <td>2 April 2023</td>
       <td>4 April 2023</td>
     </tr>
-    <tr>
+    <tr className='bg-danger text-light'>
       <th scope="row">Phase 3</th>
       <td>Create Category Table</td>
       <td>1</td>
