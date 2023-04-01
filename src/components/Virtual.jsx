@@ -1,6 +1,7 @@
 import React from 'react'
 import "../App.css"
 const Virtual = () => {
+  alert("Due to some technical issue virtual preview was closed by website devloper please being patience or contact to devloper ,Sorry for Your inconvience");
   return (
     <div>
         <div className="container">

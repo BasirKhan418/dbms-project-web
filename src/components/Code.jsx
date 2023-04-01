@@ -168,7 +168,10 @@ values("su3489","pritam","Pritam store of garments","pritam2389@gmail.com","prit
 ("si212","Hitesh","Hitesh Enterprises","hitesh212@gmail.com","hitesh5678","9570020910","Noida,UP","Cod/Upi/Net Banking/Card","Electronics"),<br/>
 ("si213","Niyaz","Specare Enterprises","Specare@gmail.com","specare65678","8093911366","Odisha,Cuttack","Cod/Upi/Net Banking/Card","Electronics"),<br/>
 ("su0986","dibya","relince fresh","relince@gmail.com","dibya345","984367299","Banglore,Karnataka","Cod/Upi/Net Banking/Card","home supplies"),<br/>
-("su6783","ravi","rabindra store","rabinra@gmail.com","rabindra678","9087456732","Attapur,Hydrabad","Cod/Upi/Net Banking/Card","Appliances");
+("su6783","ravi","rabindra store","rabinra@gmail.com","rabindra678","9087456732","Attapur,Hydrabad","Cod/Upi/Net Banking/Card","Appliances"),<br/>
+("su3482","Akash","Akash Sports Store","akash1289@gmail.com","akash134","9643678510","New Delhi,Delhi","Cod/Upi/Net Banking/Card","Sports and fitness"),<br/>
+("su5613","Ayush","Ayush pharmacy","apollo@gmail.com","ayu7478","867896330","Bhubaneswar,Odisha","Cod/Upi/Net Banking/Card","Baby care"),<br/>
+("su9879","prajna","prajna variety store","prajnastore@gmail.com","prajna456","6789543210","Ranchi,Jharkhand","Cod/Upi/Net Banking/Card","Stationary & office supplies");<br/>
 </code>
   </div>
 </div>
