@@ -5,6 +5,7 @@ import About from './components/About';
 import Code from './components/Code';
 import Timereal from './components/Timereal';
 import Virtual from './components/Virtual';
+import Getcode from './components/Getcode';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
     <Route exact path="/code" element={<Code/>} />
     <Route exact path="/timetable" element={<Timereal/>} />
     <Route exact path="/virtualexp" element={<Virtual/>} />
+    <Route exact path="/getcode" element={<Getcode/>} />
     </Routes>
     </Router>
     </>
