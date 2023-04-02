@@ -16,7 +16,7 @@ const Slider = () => {
   <div className="carousel-inner" style={{height:400}}>
   
     <div className="carousel-item active">
-    <h1 className='text-center my-3 mx-3 font' style={{position:'relative',top:40}}>
+    <h1 className='text-center my-3 mx-3 font' style={{position:'relative',top:50}}>
     Welcome to DBMS Project Web
   </h1>
       <img src={f1} className="d-block w-100" alt="f1"style={{height:450}}/>
@@ -24,13 +24,13 @@ const Slider = () => {
     </div>
   
     <div className="carousel-item">
-    <h1 className='text-center my-3 mx-3 font'  style={{position:'relative',top:40}}>
+    <h1 className='text-center my-3 mx-3 font'  style={{position:'relative',top:50}}>
    Welcome To Real Time 
   </h1>
       <img src={f2} className="d-block w-100" alt="f2" style={{height:450}}/>
     </div>
     <div className="carousel-item">
-    <h1 className='text-center my-3 mx-3 font'  style={{position:'relative',top:40}}>
+    <h1 className='text-center my-3 mx-3 font'  style={{position:'relative',top:50}}>
    E-Commerce Database
   </h1>
       <img src={f3} className="d-block w-100" alt="f3" style={{height:450}}/>

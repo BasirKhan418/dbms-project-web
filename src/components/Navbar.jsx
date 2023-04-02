@@ -19,9 +19,6 @@ const Navbar = () => {
           <Link className={`nav-link ${location.pathname==="/"?"active":""}`} aria-current="page" to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className={`nav-link ${location.pathname==="/virtualexp"?"active":""}`} to="/virtualexp">Virtual Exp</Link>
-        </li>
-        <li className="nav-item">
           <Link className={`nav-link ${location.pathname==="/code"?"active":""}`} to="/code">Contribute Here</Link>
         </li>
         <li className="nav-item">

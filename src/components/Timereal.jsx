@@ -4,7 +4,7 @@ import "../App.css";
 const Timereal = () => {
   return (
     <div>
-      <h1 className='text-center my-3 mx-3 font ' style={{position:'relative',top:40}}>
+      <h1 className='text-center my-3 mx-3 font ' style={{position:'relative',top:50}}>
     Time Table Of the Project
   </h1>
   <div className="container">

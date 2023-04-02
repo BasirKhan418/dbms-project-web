@@ -3,7 +3,7 @@ import React from 'react'
 const Timetable = () => {
   return (
     <div>
-      <table className="table">
+      <table className="table" style={{position:'relative',top:50}}>
   <thead>
     <tr>
       <th scope="col">Name</th>
