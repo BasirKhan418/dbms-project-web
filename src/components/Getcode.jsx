@@ -196,7 +196,9 @@ values("ci121","Electronics","Electronics","3"), <br />
 ("ci122","Grocery","Grocery","1"), <br />
 ("ci123","Home and decor","Home and decor","1"),
 ("ci124","Babycare","Baby care","1"),<br />
-("ci126","Appliances","Appliances","1");<br />
+("ci126","Appliances","Appliances","1"),<br />
+("ci127","Fashion","Men,women and kids waer","2"),<br />
+("ci128","Beauty","beauty products","2");<br />
              
             </code>
           </div>
