@@ -63,9 +63,9 @@ const Code = () => {
   return (
     <>
       <div className="container">
-        <h1 className="text-center my-3 mx-3 font">Contribute Here</h1>
+        <h1 className="text-center my-3 mx-3 font"  style={{position:'relative',top:40}}>Contribute Here</h1>
       </div>
-      <div className="container">
+      <div className="container"  style={{position:'relative',top:40}}>
         <form ref={formRef} onSubmit={handleSubmit}>
           <div className="mb-3">
             <label for="exampleFormControlInput1" className="form-label">

@@ -4,9 +4,9 @@ const Getcode = () => {
   return (
     <div>
       <div className="container">
-        <h1 className="text-center my-3 mx-3 font">Get the Code</h1>
+        <h1 className="text-center my-3 mx-3 font" style={{position:'relative',top:40}}>Get the Code</h1>
       </div>
-      <div className="container">
+      <div className="container" style={{position:'relative',top:40}}>
         <div className="card my-3">
           <div className="card-body">
             <h5 className="card-title">Phase 0</h5>

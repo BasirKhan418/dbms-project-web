@@ -3,11 +3,11 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-      <h1 className='text-center my-3 mx-3 font'>
+      <h1 className='text-center my-3 mx-3 font' style={{position:'relative',top:40}}>
     Contribute On GitHub
   </h1>
     
-    <div className="container">
+    <div className="container" style={{position:'relative',top:40}}>
     <div className="card">
   <h5 className="card-header">
   Contribute On GitHub

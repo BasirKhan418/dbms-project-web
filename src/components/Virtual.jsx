@@ -5,7 +5,7 @@ const Virtual = () => {
   return (
     <div>
         <div className="container">
-        <h1 className='text-center my-3 mx-3 font'>
+        <h1 className='text-center my-3 mx-3 font'  style={{position:'relative',top:40}}>
     Virtual Expereience
   </h1>
         </div>
