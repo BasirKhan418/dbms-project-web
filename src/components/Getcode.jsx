@@ -192,13 +192,16 @@ category_description varchar(200) , <br />
 total_num_suppliers varchar(200) not null <br />
 ); <br />
 insert into categorydetails <br />
-values("ci121","Electronics","Electronics","3"), <br />
-("ci122","Grocery","Grocery","1"), <br />
-("ci123","Home and decor","Home and decor","1"),
+values("ci121","Electronics","Electronics","3"),<br />
+("ci122","Grocery","Grocery","1"),<br />
+("ci123","Home and decor","Home and decor","1"),<br />
 ("ci124","Babycare","Baby care","1"),<br />
 ("ci126","Appliances","Appliances","1"),<br />
-("ci127","Fashion","Men,women and kids waer","2"),<br />
-("ci128","Beauty","beauty products","2");<br />
+("ci127","Fashion","Men,women and kids wear","2"),<br />
+("ci128","Beauty Products","beauty products","2"),<br />
+("ci129","Stationary & Office Supplies","Stationaries","1"),<br />
+("ci130","Childerns Toys","Toys","1"),<br />
+("ci131","medicine","medicine","2");<br />
              
             </code>
           </div>
