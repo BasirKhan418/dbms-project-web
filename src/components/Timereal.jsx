@@ -10,7 +10,7 @@ const Timereal = () => {
   <div className="container">
     <Timetable/>
   </div>
-  <div className="container">
+  <div className="container"  style={{position:'relative',top:50}}>
   <div className="card my-3">
   <div className="card-body">
     <h5 className="card-title">Phase 1</h5>
