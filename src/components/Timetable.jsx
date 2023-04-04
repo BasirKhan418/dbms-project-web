@@ -28,7 +28,7 @@ const Timetable = () => {
       <td>2 April 2023</td>
       <td>4 April 2023</td>
     </tr>
-    <tr className='bg-danger text-light'>
+    <tr className='bg-success text-light'>
       <th scope="row">Phase 3</th>
       <td>Create Category Table</td>
       <td>1</td>
