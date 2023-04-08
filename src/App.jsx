@@ -6,6 +6,7 @@ import Code from './components/Code';
 import Timereal from './components/Timereal';
 import Virtual from './components/Virtual';
 import Getcode from './components/Getcode';
+import Ppt from './components/Ppt';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
     <Route exact path="/timetable" element={<Timereal/>} />
     <Route exact path="/virtualexp" element={<Virtual/>} />
     <Route exact path="/getcode" element={<Getcode/>} />
+    <Route exact path="/ppt" element={<Ppt/>} />
     </Routes>
     </Router>
     </>
