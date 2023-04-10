@@ -1,5 +1,4 @@
 import React from 'react'
-import Code from './Code'
 
 const Ppt = () => {
     const download =()=>{
@@ -52,17 +51,11 @@ const Ppt = () => {
 </table>
 
     </div>
-    <Code title="Share Your Content For PPT"/>
-    <div className="card my-3 " style={{position:'relative',top:50}}>
-          <div className="card-body">
-            <h5 className="card-title">PPT</h5>
-            <h6 className="card-subtitle mb-2 text-muted">PPT Appeared Here</h6>
-            <p className="card-text">
-                After Completion of ppt it will be appeared here
-            </p>
-            <button className='btn btn-primary' onClick={download}> Download Now</button>
-          </div>
-        </div>
+    <div className="container my-10 mx-10 d-flex justify-content-center ">
+
+   
+    <iframe src="https://onedrive.live.com/embed?resid=BF1ACF3C7501E89%2196651&amp;authkey=%21ABA8X-Q-gw-e1k8&amp;em=2&amp;wdAr=1.7777777777777777&amp;wdEaaCheck=1" width="1000px" height="500px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+    </div>
     </div>
   )
 }
