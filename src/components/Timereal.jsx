@@ -1,6 +1,7 @@
 import React from 'react'
 import Timetable from './Timetable'
 import "../App.css";
+import Footer from './Footer';
 const Timereal = () => {
   return (
     <div>
@@ -54,6 +55,7 @@ const Timereal = () => {
   </div>
 </div>
   </div>
+  <Footer/>
     </div>
   )
 }

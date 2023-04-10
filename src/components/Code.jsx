@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
+import Footer from "./Footer";
 const Code = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -116,6 +117,7 @@ const Code = () => {
           </div>
         </form>
       </div>
+      <Footer/>
     </>
   );
 };

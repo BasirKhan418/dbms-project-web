@@ -3,6 +3,7 @@ import Slider from './Slider'
 import Team from './Team'
 import Timetable from './Timetable'
 import {Link} from "react-router-dom";
+import Footer from './Footer';
 const Home = () => {
   return (
     <>
@@ -57,6 +58,7 @@ const Home = () => {
   <div className="container">
     <Timetable/>
   </div>
+  <Footer/>
     </>    
    
   )

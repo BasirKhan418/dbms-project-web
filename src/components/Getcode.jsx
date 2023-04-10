@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 
 const Getcode = () => {
   return (
@@ -210,6 +211,7 @@ values("ci121","Electronics","Electronics","3"),<br />
           </div>
         </div>
       </div>
+<Footer/>
     </div>
   )
 }
