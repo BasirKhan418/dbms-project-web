@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from './Footer'
 
 const Getcode = () => {
+  alert("Website under maintainance we will work om it to fix these issue please work on it after 4.00pm")
   return (
     <div>
       <div className="container">
