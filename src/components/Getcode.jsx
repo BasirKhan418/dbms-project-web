@@ -28,7 +28,7 @@ const Getcode = () => {
             <code className="card-text">
               create table userdetails(
               <br />
-              user_id varchar(200) not null unique,
+              user_id varchar(200) not null unique primary key,
               <br />
               user_name varchar(200) not null,
               <br />
@@ -94,7 +94,7 @@ const Getcode = () => {
             <code className="card-text">
               create table supplierdetails(
               <br />
-              supplier_id varchar(200) not null unique,
+              supplier_id varchar(200) not null unique primary key,
               <br />
               supplier_name varchar(200) not null,
               <br />
@@ -187,7 +187,7 @@ const Getcode = () => {
             </h6>
             <code className="card-text">
             create table categorydetails( <br />
-category_id varchar(200) not null unique, <br />
+category_id varchar(200) not null unique primary key, <br />
 category_name varchar(200) not null, <br />
 category_description varchar(200) , <br />
 total_num_suppliers varchar(200) not null <br />
@@ -207,6 +207,35 @@ values("ci121","Electronics","Electronics","3"),<br />
 ("ci133","Sports & Fitness","medicine","1"),<br />
 ("ci134","Home-supplies","Home-supplies","1");
              
+            </code>
+          </div>
+        </div>
+        <div className="card my-3">
+          <div className="card-body">
+            <h5 className="card-title">Phase 4</h5>
+            <h6 className="card-subtitle mb-2 text-muted">
+              Create Product Details
+            </h6>
+            <p>Read the product attributes if in your category any one of these not null marked attributes are not considerable leave this with blank "",</p>
+            <code className="card-text">
+            create table product_details(<br/>
+product_id varchar(20) not null unique primary key,<br/>
+supplier_id varchar(20) not null,<br/>
+foreign key (supplier_id) references supplierdetails(supplier_id),<br/>
+category_id varchar(20) not null,<br/>
+foreign key (category_id) references categorydetails(category_id),<br/>
+product_name varchar(200) not null,<br/>
+product_description varchar(250),<br/>
+product_sku varchar(200) not null unique,<br/>
+product_mrp varchar(10) not null,<br/>
+product_price varchar(10) not null,<br/>
+product_inventory varchar(20) not null,<br/>
+product_colour varchar(200),<br/>
+product_size varchar(200)<br/>
+);<br/>
+insert into product_details<br/>
+values("pr001","si211","ci121","Bluetooth speaker","5watt speaker with dolby atmos","spe001","2999","1499","20","blue","medium"),<br/>
+("pr002","si211","ci121","Buds 2 pro","11mm dynamic driver","spe002","1999","999","25","Black","");<br/>
             </code>
           </div>
         </div>
