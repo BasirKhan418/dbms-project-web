@@ -236,6 +236,14 @@ product_size varchar(200)<br/>
 insert into product_details<br/>
 values("pr001","si211","ci121","Bluetooth speaker","5watt speaker with dolby atmos","spe001","2999","1499","20","blue","medium"),<br/>
 ("pr002","si211","ci121","Buds 2 pro","11mm dynamic driver","spe002","1999","999","25","Black","");<br/>
+("pr003","si211","ci121","Boat SmartWatch","Bluetooth calling watch","spe003","3999","2999","15","Grey","1.69 inch"),<br/>
+("pr004","si212","ci121","Laptop","core i7 12th gen","spe004","69000","65999","10","Silver","16.5 inch"),<br/>
+("pr005","si212","ci121","Smart Phone","Hellio G90T Prossecor","spe005","19999","17999","18","White","16.5 cm"),<br/>
+("pr006","si212","ci121","Printer","Laser ink","spe006","12999","9999","5","Black",""),<br/>
+("pr007","si213","ci121","Keyboard","Gaming","spe007","1599","1199","22","Multicolour",""),<br/>
+("pr008","si213","ci121","Mouse","Gaming","spe008","2599","1999","10","Neon",""),<br/>
+("pr009","si213","ci121","Neck Band","Wireless Bluetooth","spe009","999","699","13","Red",""),<br/>
+("pr010","si213","ci121","Charger","120 Watt","spe010","699","599","8","White","");<br/>
             </code>
           </div>
         </div>
