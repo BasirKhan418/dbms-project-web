@@ -175,7 +175,8 @@ const Getcode = () => {
               <br />
               ("si7544","Babu","Babu
               Automobiles","babuautomob@gmail.com","babu45654854","6789543558","Jajpur,Odisha","Cod/Upi/Net
-              Banking/Card","Auto Accessories");
+              Banking/Card","Auto Accessories"),<br />
+              ("su6748","Ragini","MAX","max001@gmail.com","max20","9896453784","Banglore,karnataka","COD/UPI/Bank","men and women, kids wears");<br />
             </code>
           </div>
         </div>
@@ -243,7 +244,27 @@ values("pr001","si211","ci121","Bluetooth speaker","5watt speaker with dolby atm
 ("pr007","si213","ci121","Keyboard","Gaming","spe007","1599","1199","22","Multicolour",""),<br/>
 ("pr008","si213","ci121","Mouse","Gaming","spe008","2599","1999","10","Neon",""),<br/>
 ("pr009","si213","ci121","Neck Band","Wireless Bluetooth","spe009","999","699","13","Red",""),<br/>
-("pr010","si213","ci121","Charger","120 Watt","spe010","699","599","8","White","");<br/>
+("pr010","si213","ci121","Charger","120 Watt","spe010","699","599","8","White",""),<br/>
+("pr011","su3489","ci127","Mens polo shirt","cotton material","spe011","3999","2499","150","blue,black,red","S,M,L,XL,XXL"),<br/>
+("pr012","su3489","ci127","AURA flowy dress","rayon material","spe012","3999","2999","15","Black,blue,lavender,yellow","XS,S,M,L,XS,XXL"),<br/>
+("pr013","su3489","ci127","KIDS frock for girl","cotton material","spe013","1999","799","20","Blue,black,green,yellow","Free size"),<br/>
+("pr014","su6748","ci127","Mens baggy jeans","breathing material","spe014","2999","999","10","Black","32,34"),<br/>
+("pr015","su3489","ci127","Woven Kanjivaram Saree ","pure silk","spe015","8999","5999","4","White,blue","6m"),<br/>
+("pr016","su6748","ci127","Men Slim Fit Trousers","polyster","spe016","1999","399","12","Black,Blue","32,34,36"),<br/>
+("pr017","su3489","ci127","Boys Festive & Party Kurta and Patiala Set","polyester","spe017","1599","799","22","Multicolour","2y-3y,4y-6y"),<br/>
+("pr018","su6748","ci127","Embroidered Semi Stitched Anarkali Gown ","Georgette","spe018","1999","599","13","Red,Blue","Free Size"),<br/>
+("pr019","su6748","ci127","Men Full Sleeve Printed Hooded Sweatshirt ","wool","spe019","999","499","3","Orange,Blue,Purple","Free Size"),<br/>
+("pr020","su6748","ci127","Girls Printed T Shirt ","cotton blend","spe020","699","599","100","multicolor","free size"),<br/>
+("pro21","su5673","ci131","Dettol","surface cleaning and personal hygiene liquid","spe021","221","255","30","blue","500ml"),<br/>
+("pro22","su5673","ci131","namcoldtablets","consists of nimesulide and cetirizine","spe022","78","99","10","yellow",""),<br/>
+("pro23","su5673","ci131","paracetamol","reduce a high temperature","spe023","150","140","20","white",""),<br/>
+("pro24","su5673","ci131","becogem capsule","perfect treatment for mouth ulcers","spe024","250","115","10","black",""),<br/>
+("pro25","su5673","ci131","crocin650 tablets","highly recommanded ","spe025","340","300","10","white",""),<br/>
+("pro26","su5673","ci131","digne","acidityand gas relief gel mint syrup","spe026","218","200","30","white","450ml"),<br/>
+("pro27","su5613","ci124","baby body wash","refreshingand antibacterial properties","spe027","275","172","12","white","400ml"),<br/>
+("pro28","su5613","ci124","baby mat","double sided theme playmat","spe028","999","503","20","Green",""),<br/>
+("pro29","su5613","ci124","baby stroller","outing with little one betricky","spe029","5499","3419","30","blue",""),<br/>
+("pro30","su5613","ci124","blanket","fancy hooded blankets by huboftoddylon","speo30","899","249","20","pink","");<br/>
             </code>
           </div>
         </div>
