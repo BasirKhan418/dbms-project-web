@@ -236,7 +236,7 @@ product_size varchar(200)<br/>
 );<br/>
 insert into product_details<br/>
 values("pr001","si211","ci121","Bluetooth speaker","5watt speaker with dolby atmos","spe001","2999","1499","20","blue","medium"),<br/>
-("pr002","si211","ci121","Buds 2 pro","11mm dynamic driver","spe002","1999","999","25","Black","");<br/>
+("pr002","si211","ci121","Buds 2 pro","11mm dynamic driver","spe002","1999","999","25","Black",""),<br/>
 ("pr003","si211","ci121","Boat SmartWatch","Bluetooth calling watch","spe003","3999","2999","15","Grey","1.69 inch"),<br/>
 ("pr004","si212","ci121","Laptop","core i7 12th gen","spe004","69000","65999","10","Silver","16.5 inch"),<br/>
 ("pr005","si212","ci121","Smart Phone","Hellio G90T Prossecor","spe005","19999","17999","18","White","16.5 cm"),<br/>
@@ -264,7 +264,17 @@ values("pr001","si211","ci121","Bluetooth speaker","5watt speaker with dolby atm
 ("pro27","su5613","ci124","baby body wash","refreshingand antibacterial properties","spe027","275","172","12","white","400ml"),<br/>
 ("pro28","su5613","ci124","baby mat","double sided theme playmat","spe028","999","503","20","Green",""),<br/>
 ("pro29","su5613","ci124","baby stroller","outing with little one betricky","spe029","5499","3419","30","blue",""),<br/>
-("pro30","su5613","ci124","blanket","fancy hooded blankets by huboftoddylon","speo30","899","249","20","pink","");<br/>
+("pro30","su5613","ci124","blanket","fancy hooded blankets by huboftoddylon","speo30","899","249","20","pink",""),<br/>
+("pr031","su8734","ci130","VikriDa Remote Control Fire Truck RC School Bus","Plastic,Rechargeable","spe031","999","699","150","red","small"),<br/>
+("pr032","su8734","ci130","Little Olive Newton DIY Kit","Paper Material","spe032","1999","599","115","multicolor","medium"),<br/>
+("pr033","su8734","ci130","Pillow Soft Playing Toy Teddy Bear ","Character: Elephant PILLOW","spe033","5999","999","40","pink","50 Cm Long "),<br/>
+("pr034","su8734","ci130","VikriDa Dancing Cactus Talking Toy","Material: Plastic,Battery Operated","spe034","999","799","40","green","medium"),<br/>
+("pr035","su8734","ci130","WiseWalker Children Boy","ABS Plastic Material","spe035","1999","999","42","multicolor","large"),<br/>
+("pr036","su8734","ci130","SHALAFI Wooden Alphabet Puzzle ","wood","spe036","3999","2999","12","multicolor","medium"),<br/>
+("pr037","su8734","ci130","CrazyBuy Magic Clay ","clay,non toxic","spe037","1599","799","22","Multicolour","12 pack"),<br/>
+("pr038","su8734","ci130","PLAY PANDA Magnetic Puzzles","Non-toxic,Material: Magnet, Metal, Paper, Plastic","spe038","2999","599","20","multicolor","large"),<br/>
+("pr039","su8734","ci130","Little Olive Bibo The Muscial Seal ","Material: Plastic,Non-battery Operated","spe039","2999","1999","3","Orange,Blue,Purple","large"),<br/>
+("pr040","su8734","ci130","Migwow Talking Tom Cat ","Material: Plastic ,Battery Operated","spe040","2999","1599","100","grey","medium");<br/>
             </code>
           </div>
         </div>
