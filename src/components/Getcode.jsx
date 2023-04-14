@@ -204,7 +204,7 @@ values("ci121","Electronics","Electronics","3"),<br />
 ("ci129","Stationary & Office Supplies","Stationaries","1"),<br />
 ("ci130","Childerns Toys","Toys","1"),<br />
 ("ci131","medicine","medicine","2"),<br />
-("ci132","Auto-accessories","Auto-accessorie","1"),<br />
+("ci132","Auto-accessories","Auto-accessories","1"),<br />
 ("ci133","Sports & Fitness","Sports and fitness","1"),<br />
 ("ci134","Home-supplies","Home-supplies","1");
              
