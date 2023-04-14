@@ -200,12 +200,12 @@ values("ci121","Electronics","Electronics","3"),<br />
 ("ci124","Babycare","Baby care","1"),<br />
 ("ci126","Appliances","Appliances","1"),<br />
 ("ci127","Fashion","Men,women and kids wear","2"),<br />
-("ci128","Beauty Products","beauty products","2"),<br />
+("ci128","Beauty Products","beauty products","1"),<br />
 ("ci129","Stationary & Office Supplies","Stationaries","1"),<br />
 ("ci130","Childerns Toys","Toys","1"),<br />
 ("ci131","medicine","medicine","2"),<br />
 ("ci132","Auto-accessories","Auto-accessorie","1"),<br />
-("ci133","Sports & Fitness","medicine","1"),<br />
+("ci133","Sports & Fitness","Sports and fitness","1"),<br />
 ("ci134","Home-supplies","Home-supplies","1");
              
             </code>
@@ -303,7 +303,17 @@ values("pr001","si211","ci121","Bluetooth speaker","5watt speaker with dolby atm
 ("pr067","si7542","ci122","Pistacio","Salted","spe067","999","859","10","Green","500 gm"),<br/>
 ("pr068","si7542","ci122","Shampoo","Anti Dandruff","spe068","399","339","50","White","450 ml"),<br/>
 ("pr069","si7542","ci122","Hair Oil","Cool","spe069","250","250","10","Red","250 ml"),<br/>
-("pr070","si7542","ci122","Body Wash","Smooth Skin","spe070","699","599","15","White","450 ml");<br/>
+("pr070","si7542","ci122","Body Wash","Smooth Skin","spe070","699","599","15","White","450 ml"),<br/>
+("pr071","si7543","ci123","Photo Frame","Sun Rise Scene","spe071","299","299","15","Multie Colour","16*15 cm"),<br/>
+("pr072","si7543","ci123","DJ Light","360 Rotateable","spe072","180","180","10","Multie colour",""),<br/>
+("pr073","si7543","ci123","Pen Stand","Fancy for Decoration","spe073","150","150","15","White",""),<br/>
+("pr074","si7543","ci123","Stand Light","Two stand light flower design","spe074","450","399","10","Multie colour","4 inch"),<br/>
+("pr075","si7543","ci123","Jar Light","Multie colour light inside jar","spe075","500","399","10","Multie colour",""),<br/>
+("pr076","si7543","ci123","Clock","Apple Shaped clock","spe076","199","199","15","Yellow & Brown",""),<br/>
+("pr077","si7543","ci123","Grass Matt","Plastic grass door matt","spe077","150","150","15","Green","100*50 cm"),<br/>
+("pr078","si7543","ci123","Table Cloth","Plastic Table cloth","spe078","150","150","10","Red","500*250 cm"),<br/>
+("pr079","si7543","ci123","Bed Sheet","Full bed Flowed design","spe079","500","450","07","Green","Full"),<br/>
+("pr080","si7543","ci123","Pillow Cover","Pack of two pillow covers","spe080","150","150","15","White","");<br/>
 
             </code>
           </div>
