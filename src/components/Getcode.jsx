@@ -274,7 +274,18 @@ values("pr001","si211","ci121","Bluetooth speaker","5watt speaker with dolby atm
 ("pr037","su8734","ci130","CrazyBuy Magic Clay ","clay,non toxic","spe037","1599","799","22","Multicolour","12 pack"),<br/>
 ("pr038","su8734","ci130","PLAY PANDA Magnetic Puzzles","Non-toxic,Material: Magnet, Metal, Paper, Plastic","spe038","2999","599","20","multicolor","large"),<br/>
 ("pr039","su8734","ci130","Little Olive Bibo The Muscial Seal ","Material: Plastic,Non-battery Operated","spe039","2999","1999","3","Orange,Blue,Purple","large"),<br/>
-("pr040","su8734","ci130","Migwow Talking Tom Cat ","Material: Plastic ,Battery Operated","spe040","2999","1599","100","grey","medium");<br/>
+("pr040","su8734","ci130","Migwow Talking Tom Cat ","Material: Plastic ,Battery Operated","spe040","2999","1599","100","grey","medium"),<br/>
+("pr041","su987","ci128","lakme moisturiser body lotion","super hydrating,soft skin","speo41","399","267","10","","200ml"),<br/>
+("pr042","su987","ci128","livon hair serum","soft silky smooth hair","speo42","120","100","16","","100ml"),<br/>
+("pr043","su987","ci128","lakme brightening face scrub","highly refreshing, expoliating ","speo43","399","360","20","","300ml"),<br/>
+("pr044","su987","ci128","huda beauty lipstick","longlasting, 16hr hold","speo44","389","299","14","rose,dank,ok boomer,swinger","50ml"),<br/>
+("pr045","su987","ci128","mamaearth kajal","smudge proof ,highly pigmented","speo45","599","499","17","jet black,blue cole","50ml"),<br/>
+("pr046","su987","ci128","faces canada eye liner","liquid,waterproof,matte","speo46","150","120","17","coal,blue,green","50ml"),<br/>
+("pr047","su987","ci128","myglamm highlighter","creamy dwey shade","speo47","299","240","9","rose gold,champagen,gold","100ml"),<br/>
+("pr048","su987","ci128","nyn huda eyeshadow","5 shimer shade,7 matte shade","speo48","500","450","11","shade1,shade2,shade3","1oml each"),<br/>
+("pr049","su987","ci128","maybelline foundation","dwey finish,glowing formula,infused with vit-e","speo49","365","340","22","ivory,dusky,melon,drove","250ml"),<br/>
+("pr050","su987","ci128","lakme compact powder","matte ,fine particles,sweat proof","speo50","325","299","5","dusky,dawn,fair,princess","150ml");<br/>
+
             </code>
           </div>
         </div>
