@@ -293,7 +293,17 @@ values("pr001","si211","ci121","Bluetooth speaker","5watt speaker with dolby atm
 ("pro57","su5613","ci124","baby bath towel","made of fabric material","speo57","599","249","20","pink","medium"),<br/>
 ("pro58","su5613","ci124","baby Nail Clipper box","soft tipped tweezers with extra ear spoon","speo58","499","194","20","multicolour",""),<br/>
 ("pro59","su5613","ci124","baby bath tub","inflatable baby pool","speo59","699","299","20","multicolour","large"),<br/>
-("pro60","su5613","ci124","baby powder","keeps skin fresh ans dry","speo60","349","282","20","","500g");<br/>
+("pro60","su5613","ci124","baby powder","keeps skin fresh ans dry","speo60","349","282","20","","500g"),<br/>
+("pr061","si7542","ci122","Good Day Rice","Pure Rice","spe061","1699","1499","20","White","25 Kg"),<br/>
+("pr062","si7542","ci122","Sugar","fined quality","spe062","50","49","50","White","1 Kg"),<br/>
+("pr063","si7542","ci122","Arhar Daal","Pure & fresh","spe063","128","117","30","Yellow","500 gm"),<br/>
+("pr064","si7542","ci122","Red Lable Tea","Assam Leaves","spe064","349","310","26","Black","500 gm"),<br/>
+("pr065","si7542","ci122","Amulyaa Powder","Milk Powder","spe065","400","369","23","White","1 Kg"),<br/>
+("pr066","si7542","ci122","Almonds","Finely cleaned","spe066","699","650","10","","500 gm"),<br/>
+("pr067","si7542","ci122","Pistacio","Salted","spe067","999","859","10","Green","500 gm"),<br/>
+("pr068","si7542","ci122","Shampoo","Anti Dandruff","spe068","399","339","50","White","450 ml"),<br/>
+("pr069","si7542","ci122","Hair Oil","Cool","spe069","250","250","10","Red","250 ml"),<br/>
+("pr070","si7542","ci122","Body Wash","Smooth Skin","spe070","699","599","15","White","450 ml");<br/>
 
             </code>
           </div>
