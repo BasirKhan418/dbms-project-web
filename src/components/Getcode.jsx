@@ -284,7 +284,16 @@ values("pr001","si211","ci121","Bluetooth speaker","5watt speaker with dolby atm
 ("pr047","su987","ci128","myglamm highlighter","creamy dwey shade","speo47","299","240","9","rose gold,champagen,gold","100ml"),<br/>
 ("pr048","su987","ci128","nyn huda eyeshadow","5 shimer shade,7 matte shade","speo48","500","450","11","shade1,shade2,shade3","1oml each"),<br/>
 ("pr049","su987","ci128","maybelline foundation","dwey finish,glowing formula,infused with vit-e","speo49","365","340","22","ivory,dusky,melon,drove","250ml"),<br/>
-("pr050","su987","ci128","lakme compact powder","matte ,fine particles,sweat proof","speo50","325","299","5","dusky,dawn,fair,princess","150ml");<br/>
+("pr050","su987","ci128","lakme compact powder","matte ,fine particles,sweat proof","speo50","325","299","5","dusky,dawn,fair,princess","150ml"),<br/>("pro51","su5673","ci131","vitaminE capsules","nourishes the skin","spe051","150","139","30","green",""),<br/>
+("pro52","su5673","ci131","vitaminC gummies","healty and safe for kids&adults","spe052","300","149","30","white",""),<br/>
+("pro53","su5673","ci131","Bonnisan liquid","effective for common digestive system","spe053","165","119","20","","100ml"),<br/>
+("pro54","su5673","ci131","Liv.52","suitable for lever","spe054","240","219","30","white",""),<br/>
+("pro55","su5613","ci124","kid's charm","fabric material with teddy design","speo55","999","727","30","blue",""),<br/>
+("pro56","su5613","ci124","baby sampoo","fruit extracts,no hypoallergenic","speo56","349","284","20","","500ml"),<br/>
+("pro57","su5613","ci124","baby bath towel","made of fabric material","speo57","599","249","20","pink","medium"),<br/>
+("pro58","su5613","ci124","baby Nail Clipper box","soft tipped tweezers with extra ear spoon","speo58","499","194","20","multicolour",""),<br/>
+("pro59","su5613","ci124","baby bath tub","inflatable baby pool","speo59","699","299","20","multicolour","large"),<br/>
+("pro60","su5613","ci124","baby powder","keeps skin fresh ans dry","speo60","349","282","20","","500g");<br/>
 
             </code>
           </div>
