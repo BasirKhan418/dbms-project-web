@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../App.css";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 import Footer from "./Footer";
+import { useNavigate } from "react-router-dom";
 const Code = () => {
+  let navigate =useNavigate();
+  useEffect(()=>{
+  if(localStorage.getItem('token')){
+    console.log("logggg")
+  }
+  else{
+  navigate("/login")
+  }
+},[])
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -69,7 +79,7 @@ const Code = () => {
       <div className="container"  style={{position:'relative',top:50}}>
         <form ref={formRef} onSubmit={handleSubmit}>
           <div className="mb-3">
-            <label for="exampleFormControlInput1" className="form-label">
+            <label htmlFor="exampleFormControlInput1" className="form-label">
               Name
             </label>
             <input
@@ -83,7 +93,7 @@ const Code = () => {
             />
           </div>
           <div className="mb-3">
-            <label for="exampleFormControlInput1" className="form-label">
+            <label htmlFor="exampleFormControlInput1" className="form-label">
               Email address
             </label>
             <input
@@ -97,7 +107,7 @@ const Code = () => {
             />
           </div>
           <div className="mb-3">
-            <label for="exampleFormControlTextarea1" className="form-label">
+            <label htmlFor="exampleFormControlTextarea1" className="form-label">
               Enter the code
             </label>
             <textarea

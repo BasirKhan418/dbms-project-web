@@ -1,7 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../App.css"
 import Footer from './Footer';
+import { useNavigate } from 'react-router-dom';
 const Virtual = () => {
+  let navigate =useNavigate();
+  useEffect(()=>{
+  if(localStorage.getItem('token')){
+    console.log("logggg")
+  }
+  else{
+  navigate("/login")
+  }
+},[])
   alert("Due to some technical issue virtual preview was closed by website devloper please being patience or contact to devloper ,Sorry for Your inconvience");
   return (
     <div>

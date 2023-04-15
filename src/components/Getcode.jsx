@@ -1,7 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from './Footer'
+import { useNavigate } from 'react-router-dom'
 
 const Getcode = () => {
+  let navigate =useNavigate();
+  useEffect(()=>{
+  if(localStorage.getItem('token')){
+    console.log("logggg")
+  }
+  else{
+  navigate("/login")
+  }
+},[])
   return (
     <div>
       <div className="container">

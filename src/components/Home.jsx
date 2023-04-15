@@ -44,10 +44,10 @@ const Home = () => {
 </div>
 <div className="container display">
   <div className="mx-3 my-3">
-  <iframe className="yt"src="https://www.youtube.com/embed/7S_tz1z_5bA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe className="yt"src="https://www.youtube.com/embed/7S_tz1z_5bA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
   </div>
 <div className="mx-3 my-3">
-<iframe className="yt" src="https://www.youtube.com/embed/uj4fy4kpaOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe className="yt" src="https://www.youtube.com/embed/uj4fy4kpaOA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 </div>
 
 

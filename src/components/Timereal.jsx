@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Timetable from './Timetable'
 import "../App.css";
 import Footer from './Footer';
+import { useNavigate } from 'react-router-dom';
 const Timereal = () => {
+  let navigate =useNavigate();
+  useEffect(()=>{
+  if(localStorage.getItem('token')){
+    console.log("logggg")
+  }
+  else{
+  navigate("/login")
+  }
+},[])
   return (
     <div>
       <h1 className='text-center my-3 mx-3 font ' style={{position:'relative',top:50}}>
