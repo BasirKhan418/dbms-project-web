@@ -3,7 +3,7 @@ import {useNavigate} from "react-router-dom"
 const Login = (props) => {
     let history = useNavigate()
     const[cred,setCred] =useState({email:"",password:""})
-    const Url_host= "http://localhost:5000"
+    const Url_host= "https://backendforgrp3.onrender.com"
     const handleSubmit =async(e)=>{
         e.preventDefault()
         const response = await fetch(`${Url_host}/api/auth/login`, {

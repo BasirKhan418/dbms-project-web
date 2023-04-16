@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-const Url_host= "http://localhost:5000"
+const Url_host= "https://backendforgrp3.onrender.com"
 const Signup = (props) => {
   let history = useNavigate()
   const[cred,setCred] =useState({name:"",email:"",password:"",cpassword:""})
@@ -19,10 +19,10 @@ const Signup = (props) => {
         if(json.success){
           localStorage.setItem('token',json.authtoken);
           history('/');
-          props.showAlert("Account Created Successfully","success");
+          // props.showAlert("Account Created Successfully","success");
         }
         else{
-          props.showAlert("Invalid Details","danger")
+          // props.showAlert("Invalid Details","danger")
         }
   }
   const onChange = (e) => {
