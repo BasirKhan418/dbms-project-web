@@ -13,6 +13,7 @@ const Code = (props) => {
   }
   else{
   navigate("/login")
+  props.showAlert("Access Denied. Please Login to access this page ","danger")
   }
 })
   const formRef = useRef();
@@ -126,6 +127,7 @@ const Code = (props) => {
             </div>
           </div>
         </form>
+        <p className="bg-secondary text-light p-3">For Your Knowledge :- In dbms you can use this page to contribute.You can also contribuite for all projects using this page</p>
       </div>}
       {loading?"":<Footer/>}
     </>

@@ -3,14 +3,15 @@ import Timetable from './Timetable'
 import "../App.css";
 import Footer from './Footer';
 import { useNavigate } from 'react-router-dom';
-const Timereal = () => {
-  let navigate =useNavigate();
+const Timereal = (props) => {
+  let navigate =useNavigate(props);
   useEffect(()=>{
   if(localStorage.getItem('token')){
     console.log("logggg")
   }
   else{
   navigate("/login")
+  props.showAlert("Access Denied. Please Login to access this page ","danger")
   }
 })
   return (

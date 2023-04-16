@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Footer from './Footer'
 import { useNavigate } from 'react-router-dom';
-const Ppt = () => {
+const Ppt = (props) => {
   let navigate =useNavigate();
   useEffect(()=>{
   if(localStorage.getItem('token')){
@@ -9,6 +9,7 @@ const Ppt = () => {
   }
   else{
   navigate("/login")
+  props.showAlert("Access Denied Please Login to access this page ","danger")
   }
 })
   return (

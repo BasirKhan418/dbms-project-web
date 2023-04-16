@@ -23,6 +23,16 @@ const Home = () => {
     <Link to="/code" className="btn btn-primary">Get Started</Link>
   </div>
 </div>
+<div className="card">
+  <h5 className="card-header">
+    C Project
+  </h5>
+  <div className="card-body mx-2">
+    <h5 className="card-title">Customer Billing System</h5>
+    <p className="card-text">Hii Guys ,Group-3 are making the project called Customer Billing System a real time billing application .Contribute Yourself By Clicking get started</p>
+    <Link to="/code" className="btn btn-primary">Get Started</Link>
+  </div>
+</div>
 </div>
 <Team/>
 <div className="container">
@@ -34,6 +44,16 @@ const Home = () => {
 <h5 className="card-title">Ecommerce Database </h5>
     <p className="card-text">Hii Guys ,DBMS Grp-3 are making the project called E-commerce database a real time shopping application database .See the project virtually by clicking on virtual experience button given below:</p>
     <Link to="/virtualexp" className="btn btn-primary">Virtual Experience</Link>
+  </div>
+</div>
+<div className="card">
+  <h5 className="card-header">
+    See Project Virtually
+  </h5>
+  <div className="card-body">
+<h5 className="card-title">Customer Billing System</h5>
+    <p className="card-text">Hii Guys ,Group-3 are making the project called Customer Billing System a real time billing application .See the project virtually by clicking on virtual experience button given below:</p>
+    <Link to="/virtualc" className="btn btn-primary">Virtual Experience</Link>
   </div>
 </div>
 </div>
@@ -48,6 +68,12 @@ const Home = () => {
   </div>
 <div className="mx-3 my-3">
 <iframe className="yt" src="https://www.youtube.com/embed/uj4fy4kpaOA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
+<div className="mx-3 my-3">
+<iframe className="yt" src="https://www.youtube.com/embed/_2msghvRn5M" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
+<div className="mx-3 my-3">
+<iframe className="yt" src="https://www.youtube.com/embed/9HcUfc6_0Oc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullScreen></iframe>
 </div>
 
 

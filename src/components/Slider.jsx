@@ -17,7 +17,7 @@ const Slider = () => {
   
     <div className="carousel-item active">
     <h1 className='text-center my-3 mx-3 font' style={{position:'relative',top:50}}>
-    Welcome to DBMS Project Web
+    Welcome to Group 3 Project Web
   </h1>
       <img src={f1} className="d-block w-100" alt="f1"style={{height:450}}/>
      
@@ -31,7 +31,7 @@ const Slider = () => {
     </div>
     <div className="carousel-item">
     <h1 className='text-center my-3 mx-3 font'  style={{position:'relative',top:50}}>
-   E-Commerce Database
+   Project management app
   </h1>
       <img src={f3} className="d-block w-100" alt="f3" style={{height:450}}/>
     </div>

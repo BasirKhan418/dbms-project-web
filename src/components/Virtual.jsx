@@ -2,25 +2,26 @@ import React, { useEffect } from 'react'
 import "../App.css"
 import Footer from './Footer';
 import { useNavigate } from 'react-router-dom';
-const Virtual = () => {
+const Virtual = (props) => {
   let navigate =useNavigate();
   useEffect(()=>{
   if(localStorage.getItem('token')){
     console.log("logggg")
+    props.showAlert("Virtual Preview is currently unavailable please raise a complain to website devloper","danger")
   }
   else{
   navigate("/login")
   }
 })
-  alert("Due to some technical issue virtual preview was closed by website devloper please being patience or contact to devloper ,Sorry for Your inconvience");
+
   return (
     <div>
-        <div className="container">
-        <h1 className='text-center my-3 mx-3 font'  style={{position:'relative',top:40}}>
+        <div className="container" style={{position:'relative',top:50}}>
+        <h1 className='text-center my-3 mx-3 font'>
     Virtual Expereience
   </h1>
         </div>
-      <div className="container">
+      <div className="container" style={{position:'relative',top:50}}>
       <div className="card my-3">
   <div className="card-body">
     <h5 className="card-title">Phase 1</h5>

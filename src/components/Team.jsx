@@ -16,36 +16,35 @@ const Team = () => {
   <img src={pr}className="card-img-top card-img" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Priyanshu Kumar</h5>
-    {/* <p className="card-text">Regd:-220301120231 Sec:-D Group:-3 DBMS<br/> <p className='text-light bg-primary p-2'>
-Performance:- No.1 Contributer</p></p> */}
+    <p className="card-text">Regd:-220301120231 Sec:-D Group:-3</p>
   </div>
 </div>
   <div className="card card1 mx-3">
   <img src={s}className="card-img-top card-img" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Smrutirupa Parida</h5>
-    {/* <p className="card-text">Regd:-220301120197 Sec:-D Group:-3 DBMS <br/><p className='text-light bg-primary p-2'>Performance:- No.2 Contributer</p></p> */}
+    <p className="card-text">Regd:-220301120197 Sec:-D Group:-3</p>
   </div>
 </div>
   <div className="card card1 mx-3">
   <img src={k}className="card-img-top card-img" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">K. Sonali</h5>
-    {/* <p className="card-text">Regd:-220301120200 Sec:-D Group:-3 DBMS<br/><p className='text-light bg-primary p-2'>Performance:- No.4 Contributer</p></p> */}
+    <p className="card-text">Regd:-220301120200 Sec:-D Group:-3/</p>
   </div>
 </div>
   <div className="card card1 mx-3">
   <img src={m}className="card-img-top card-img" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Manisha Mohapatra</h5>
-    {/* <p className="card-text">Regd:-220301120232 Sec:-D Group:-3 DBMS DBMS<br/><p className='text-light bg-primary p-2'>Performance:- No.3 Contributer</p></p> */}
+    <p className="card-text">Regd:-220301120232 Sec:-D Group:-3</p>
   </div>
 </div>
   <div className="card card1 mx-3">
   <img src={b}className="card-img-top card-img" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Basir Khan</h5>
-    {/* <p className="card-text">Regd:-220301120209 Sec:-D Group:-3 DBMS<br/> <p className='text-light bg-primary p-2'>Performance:- Project Leader and Contributer</p></p> */}
+    <p className="card-text">Regd:-220301120209 Sec:-D Group:-3</p>
   </div>
 </div>
 
