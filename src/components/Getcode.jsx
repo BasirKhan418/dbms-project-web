@@ -323,7 +323,18 @@ values("pr001","si211","ci121","Bluetooth speaker","5watt speaker with dolby atm
 ("pr077","si7543","ci123","Grass Matt","Plastic grass door matt","spe077","150","150","15","Green","100*50 cm"),<br/>
 ("pr078","si7543","ci123","Table Cloth","Plastic Table cloth","spe078","150","150","10","Red","500*250 cm"),<br/>
 ("pr079","si7543","ci123","Bed Sheet","Full bed Flowed design","spe079","500","450","07","Green","Full"),<br/>
-("pr080","si7543","ci123","Pillow Cover","Pack of two pillow covers","spe080","150","150","15","White","");<br/>
+("pr080","si7543","ci123","Pillow Cover","Pack of two pillow covers","spe080","150","150","15","White",""),<br/>
+("pr081","su9879","ci129","pencil","for drack and neat writting","speo81","80","40","12","red,green,orange",""),<br/>
+("pr082","su9879","ci129","pen","waterproof ink for smooth and fast writting","speo82","120","100","6","black,blue,red",""),<br/>
+("pr083","su9879","ci129","iraser","cleanly eraising","speo83","150","60","10","multicolor","regular"),<br/>
+("pr084","su9879","ci129","sharpner","for smooth & fine point sharpening","speo84","200","78","17","orange,sky,green",""),<br/>
+("pr085","su9879","ci129","drawing book","skecth papers are excellent","speo85","499","244","5","craft brown",""),<br/>
+("pr086","su9879","ci129","plane notebook","pages are pure white","speo86","88","65","21","","A5"),<br/>
+("pr087","su9879","ci129","desk station","multifunctional small objects and cable management system","speo87","425","340","15","",""),<br/>
+("pr088","su9879","ci129","stapler","skin stapler is used to close epidermis layer","speo88","500","450","4","",""),<br/>
+("pr089","su9879","ci129","numbering machine","easy to use & smooth working","speo89","1000","899","24","","55*30mm"),<br/>
+("pr090","su9879","ci129","calculator","ensure continuous and long lasting usage","speo90","1280","1200","25","","20*121*123mm");<br/>
+
 
             </code>
           </div>
