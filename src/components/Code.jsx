@@ -4,11 +4,12 @@ import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 import Footer from "./Footer";
 import { useNavigate } from "react-router-dom";
-const Code = () => {
+import Spinner from "./Spinner";
+const Code = (props) => {
   let navigate =useNavigate();
   useEffect(()=>{
   if(localStorage.getItem('token')){
-    console.log("logggg")
+    // console.log("logggg")
   }
   else{
   navigate("/login")
@@ -52,10 +53,7 @@ const Code = () => {
       .then(
         () => {
           setLoading(false);
-          alert(
-            "Thank you. Your code has been submitted successfully it will be review and reflect on web with in 24 hours"
-          );
-
+         props.showAlert("Thank you. Your code has been submitted successfully it will be review and reflect on web with in 24 hours","success")
           setForm({
             name: "",
             email: "",
@@ -73,9 +71,11 @@ const Code = () => {
 
   return (
     <>
+      
       <div className="container">
         <h1 className="text-center my-3 mx-3 font"  style={{position:'relative',top:50}}>Contribute Here</h1>
       </div>
+      {loading?<Spinner/>:
       <div className="container"  style={{position:'relative',top:50}}>
         <form ref={formRef} onSubmit={handleSubmit}>
           <div className="mb-3">
@@ -126,10 +126,10 @@ const Code = () => {
             </div>
           </div>
         </form>
-      </div>
-      <Footer/>
+      </div>}
+      {loading?"":<Footer/>}
     </>
-  );
-};
+  )
+}
 
 export default Code;

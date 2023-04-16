@@ -1,11 +1,14 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import Spinner from './Spinner';
 const Url_host= "https://backendforgrp3.onrender.com"
 const Signup = (props) => {
   let history = useNavigate()
+  const [loading ,setLoading] =useState(false)
   const[cred,setCred] =useState({name:"",email:"",password:"",cpassword:""})
   const handleSubmit =async(e)=>{
       e.preventDefault()
+      setLoading(true);
       const {name,email,password}=cred;
       const response = await fetch(`${Url_host}/api/auth/createuser`, {
           method: "POST",
@@ -19,10 +22,12 @@ const Signup = (props) => {
         if(json.success){
           localStorage.setItem('token',json.authtoken);
           history('/');
-          // props.showAlert("Account Created Successfully","success");
+          setLoading(false);
+          props.showAlert("Account Created Successfully","success");
         }
         else{
-          // props.showAlert("Invalid Details","danger")
+          props.showAlert("Invalid Details","danger")
+          setLoading(false)
         }
   }
   const onChange = (e) => {
@@ -30,8 +35,9 @@ const Signup = (props) => {
     };
   return (
     <>
+    {loading?<Spinner/>:
     <div className='container' style={{position:'relative',top:50}}>
-      <h2 className='my-2'>Create your account to use INotebook</h2>
+      <h2 className='my-2 text-center bg-primary text-light' style={{padding:5,borderRadius:10}}>Create your account to use GRP3 PROJECT WEB</h2>
     <form onSubmit={handleSubmit}>
     <div className="mb-3">
     <label htmlFor="name" className="form-label">Name</label>
@@ -52,7 +58,7 @@ const Signup = (props) => {
   </div>
   <button type="submit" className="btn btn-primary">Submit</button>
 </form>
-    </div>
+    </div>}
     </>
   )
 }
