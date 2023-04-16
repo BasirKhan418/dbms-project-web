@@ -3,10 +3,10 @@ import {useNavigate} from "react-router-dom"
 const Login = (props) => {
     let history = useNavigate()
     const[cred,setCred] =useState({email:"",password:""})
-   
+    const Url_host= "http://localhost:5000"
     const handleSubmit =async(e)=>{
         e.preventDefault()
-        const response = await fetch("https://grp3backend.vercel.app", {
+        const response = await fetch(`${Url_host}/api/auth/login`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -18,10 +18,10 @@ const Login = (props) => {
           if(json.success){
             localStorage.setItem('token',json.authtoken);
             history('/');
-            props.showAlert("Logged In Successfully","success");
+            // props.showAlert("Logged In Successfully","success");
           }
           else{
-            props.showAlert("Invalid Credentials","danger");
+            // props.showAlert("Invalid Credentials","danger");
           }
     }
     const onChange = (e) => {

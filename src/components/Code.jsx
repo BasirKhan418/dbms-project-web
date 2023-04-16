@@ -13,7 +13,7 @@ const Code = () => {
   else{
   navigate("/login")
   }
-},[])
+})
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",

@@ -10,7 +10,7 @@ const About = () => {
   else{
   navigate("/login")
   }
-},[])
+})
   return (
     <div>
       <h1 className='text-center my-3 mx-3 font' style={{position:'relative',top:50}}>

@@ -11,7 +11,7 @@ const Getcode = () => {
   else{
   navigate("/login")
   }
-},[])
+})
   return (
     <div>
       <div className="container">
