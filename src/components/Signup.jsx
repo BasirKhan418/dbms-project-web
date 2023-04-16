@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-const Url_host= "http://localhost:5000"
+const Url_host= "https://grp3backend.vercel.app"
 const Signup = (props) => {
   let history = useNavigate()
   const[cred,setCred] =useState({name:"",email:"",password:"",cpassword:""})
