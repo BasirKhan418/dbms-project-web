@@ -39,7 +39,7 @@ const App = () => {
     <Route exact path="/virtualexp" element={<Virtual showAlert={showAlert}/>} />
     <Route exact path="/getcode" element={<Getcode showAlert={showAlert}/>} />
     <Route exact path="/ppt" element={<Ppt showAlert={showAlert}/>} />
-    <Route exact path="/signup7542" element={<Signup showAlert={showAlert}/>} />
+    <Route exact path="/getcode/signup7542" element={<Signup showAlert={showAlert}/>} />
     <Route exact path="/Login" element={<Login showAlert={showAlert}/>} />
     <Route exact path="/ccode" element={<Ccode/>} />
     <Route exact path="/dbmscode" element={<Dbmscode/>} />

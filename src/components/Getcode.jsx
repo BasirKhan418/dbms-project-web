@@ -19,10 +19,11 @@ const Getcode = (props) => {
       <div className="container d-flex justify-content-center flex-column align-items-center"  style={{position:'relative',top:100}}>
       <Link className="btn btn-primary my-2 w-75 p-3" to="/dbmscode">Get Dbms Project Code</Link>
       <Link className="btn btn-primary my-2 w-75 p-3" to="/ccode">Get c Project Code</Link>
-      <Link className="btn btn-primary my-2 w-75 p-3" to="/signup7542">Create Your New / Team Member Account</Link>
+      <Link className="btn btn-primary my-2 w-75 p-3" to="/getcode/signup7542">Create Your New / Team Member Account</Link>
       <Link className="btn btn-primary my-2 w-75 p-3" to="/virtualc">Virtual Preview C Project</Link>
       <Link className="btn btn-primary my-2 w-75 p-3" to="/virtualexp">Virtual Preview Dbms Project</Link>
       </div>
+      
     </div>
    
     </>
