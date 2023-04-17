@@ -127,7 +127,7 @@ const Code = (props) => {
             </div>
           </div>
         </form>
-        <p className="bg-secondary text-light p-3">For Your Knowledge :- In dbms you can use this page to contribute.You can also contribuite for all projects using this page</p>
+        <p className="bg-secondary text-light p-3">For Your Knowledge :- In dbms you can use this page to contribute.You can also contribute for all projects using this page.Thank you</p>
       </div>}
       {loading?"":<Footer/>}
     </>
