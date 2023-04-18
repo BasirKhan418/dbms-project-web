@@ -382,7 +382,68 @@ order_shipdate varchar(200)<br/>
 );<br/>
 insert into order_details<br/>
 values("or041","pr041","ui111","orno041","4","Upi","267","pending","Delhivery","Prepaid","14/04/2023"),<br/>
-("or042","pr042","ui112","orno042","1","wallet","100","delivered","Dtdc","cod","17/04/2023");<br/>
+("or042","pr042","ui112","orno042","1","wallet","100","delivered","Dtdc","cod","17/04/2023"),<br/>
+("or001","pr011","ui113","orno011","5","Upi","12,495","delivered","Delhivery","Prepaid","01/04/2023"),<br/>
+("or002","pr013","ui115","orno012","1","wallet","799","delivered","Dtdc","cod","17/04/2023"),<br/>
+("or003","pr014","ui114","orno013","2","cod","1998","pending","Bluecart","Prepaid","23/04/2023"),<br/>
+("or004","pr015","ui124","orno014","1","upi","5999","pending","e-kart","Prepaid","19/04/2023"),
+("or005","pr092","ui118","orno015","3","cod","2697","delivered","Bluecart","Prepaid","03/04/2023"),<br/>
+("or006","pr095","ui122","orno016","1","upi","599","pending","e-kart","prepaid","27/04/2023"),<br/>
+("or07","pr097","ui116","orno017","2","wallet","1589","deliverd","e-kart","cod","09/04/2023"),<br/>
+("or008","pr033","ui120","orno018","2","wallet","1998","pending","Delhivery","cod","21/04/2023"),<br/>
+("or009","pro57","ui124","orno018","3","cod","799","deliverd","Dtdc","cod","11/04/2023"),<br/>
+("or010","pro53","ui127","orno019","1","upi","119","pending","e-kart","prepaid","24/04/2023"),<br/>
+("or011","pr031","ui117","orno020","2","wallet","1499","deliverd","Dtdc","cod","01/04/2023"),<br/>
+("or012","pr040","ui130","orno021","4","cod","6499","pending","e-kart","cod","29/04/2023"),<br/>
+("or013","pr033","ui111","orno022","1","upi","999","deliverd","Bluecart","prepaid","09/04/2023"),<br/>
+("or014","pr039","ui112","orno023","2","cod","3699","pending","Delhivery","cod","24/04/2023"),<br/>
+("or015","pr035","ui118","orno024","4","upi","3500","deliverd","e-kart","prepaid","12/04/2023"),<br/>
+("or016","pr001","ui111","orno025","1","Upi","1499","Confirmed","E-Kart","Prepaid","29/04/23"),<br/>
+("or017","pr110","ui112","orno026","1","Net banking","4599","Delivered","Amazon","COD","17/04/2023"),<br/>
+("or018","pr041","ui113","orno027","3","Upi","267","Shipped","Delhivery","Prepaid","22/04/2023"),<br/>
+("or019","pr039","ui114","orno028","1","Cash","1999","Deliverd","E-Kart","COD","14/04/2023"),<br/>
+("or020","pr105","ui115","orno029","4","Net Banking","599","pending","Delhivery","Prepaid","30/04/2023"),<br/>
+("or021","pr098","ui116","orno030","2","Upi","599","Shipped","Amazon","Prepaid","01/05/2023"),<br/>
+("or022","pr045","ui117","orno031","5","Cash","499","Confirmed","X-Press","Prepaid","28/04/2023"),<br/>
+("or023","pr076","ui118","orno032","1","Upi","199","Delivered","Delhivery","Prepaid","18/04/2023"),<br/>
+("or024","pr081","ui119","orno033","1","Cash","40","Shippment Ready","E-Kart","Prepaid","28/04/2023"),<br/>
+("or025","pro55","ui120","orno034","1","Upi","727","Confirmed","Amazon","Prepaid","30/04/2023"),<br/>
+("or026","pr012","ui121","orno035","1","Upi","2999","Shipped","X-Press","Prepaid","25/04/2023"),<br/>
+("or027","pr069","ui122","orno036","1","Net Banking","250","Ordered","Delhivery","Prepaid","05/05/2023"),<br/>
+("or028","pr095","ui123","orno037","1","Upi","599","Delivered","Amazon","Prepaid","16/04/2023"),<br/>
+("or029","pr100","ui124","orno038","1","Upi","599","pending","E-Kart","Prepaid","26/04/2023"),<br/>
+("or081","pr081","ui111","orno081","1","Upi","40","delivered","E-kart","cod","14/04/2023"),<br/>
+("or082","pr082","ui112","orno082","4","card","100","delivered","Dtdc","cod","13/04/2023"),<br/>
+("or083","pr083","ui113","orno083","3","wallet","60","shipped","e-com","prepaid","28/04/2023"),<br/>
+("or084","pr084","ui114","orno084","2","Upi","78","cancelled","E-kart","cod","25/04/2023"),<br/>
+("or085","pr085","ui115","orno085","9","wallet","244","rto","Delhivery","prepaid","15/04/2023"),<br/>
+("or086","pr086","ui116","orno086","5","cod","65","pending","bluedart","prepaid","9/05/2023"),<br/>
+("or087","pr087","ui117","orno087","6","net banking","340","cancelled","X-pressbees","cod","29/03/2023"),<br/>
+("or088","pr088","ui118","orno088","1","card","450","rto","Dtdc","cod","28/04/2023"),<br/>
+("or089","pr089","ui119","orno089","2","Upi","899","delivered","e-com","prepaid","3/05/2023"),<br/>
+("or090","pr090","ui120","orno090","1","card","1200","shipped","bluedart","prepaid","11/05/2023");<br/>
+
+            </code>
+          </div>
+        </div>
+        <div className="card my-3">
+          <div className="card-body">
+            <h5 className="card-title">Phase 6</h5>
+            <h6 className="card-subtitle mb-2 text-muted">
+              Create Offer Details
+            </h6>
+            <code className="card-text">
+            create table offer_details(<br/>
+offer_id varchar(20) not null unique primary key,<br/>
+offer_name varchar(20) not null,<br/>
+offer_discount varchar(20) not null,<br/>
+offer_coupon varchar(250) not null unique,<br/>
+orffer_start_date varchar(10) not null,<br/>
+offer_end_date varchar(10) not null<br/>
+);<br/>
+insert into offer_details<br/>
+values("of001","big billion days","20%","SP2001","01/04/2023","20/04/2023"),<br/>
+("of002","Great indian sale","30%","SP20023","02/04/2023","25/04/2023");<br/>
             </code>
           </div>
         </div>
@@ -407,6 +468,7 @@ values("of001","pr001","1000rs","once per user"),<br/>
             </code>
           </div>
         </div>
+      
       </div>
 <Footer/>
     </div>
