@@ -380,7 +380,59 @@ order_shipdate varchar(200)<br/>
 );
 insert into order_details<br/>
 values("or001","pr003","orno001","2","Upi","2999","shipped","Delhivery","Prepaid","4/04/2023"),<br/>
-("or002","pr002","orno002","2","cod","999","delivered","E-kart","cod","3/04/2023");<br/>
+("or002","pr002","orno002","2","cod","999","delivered","E-kart","cod","3/04/2023"),<br/>
+("or041","pr041","orno041","4","Upi","267","pending","Delhivery","Prepaid","14/04/2023"),<br/>
+("or042","pr042","orno042","1","wallet","100","delivered","Dtdc","cod","17/04/2023"),<br/>
+("or043","pr043","orno043","2","card","360","rto","E-kart","prepaid","18/04/2023"),<br/>
+("or044","pr044","orno044","7","Upi","299","cancelled","E-kart","cod","5/04/2023"),<br/>
+("or045","pr045","orno045","4","net banking","68","shipped","Delhivery","cod","19/04/2023"),<br/>
+("or046","pr046","orno046","3","cod","120","pending","bluedart","prepaid","8/05/2023"),<br/>
+("or047","pr047","orno047","2","wallet","240","rto","X-pressbees","prepaid","24/03/2023"),<br/>
+("or048","pr048","orno048","1","card","450","cancelled","E-kart","cod","28/04/2023"),<br/>
+("or049","pr049","orno049","5","Upi","340","delivered","e-com","cod","30/04/2023"),<br/>
+("or050","pr050","orno050","6","net banking","299","shipped","Dtdc","prepaid","1/05/2023");<br/>
+            </code>
+          </div>
+        </div>
+        <div className="card my-3">
+          <div className="card-body">
+            <h5 className="card-title">Phase 6</h5>
+            <h6 className="card-subtitle mb-2 text-muted">
+              Create Offer Deatils
+            </h6>
+            <code className="card-text">
+            create table offer_details(<br/>
+offer_id varchar(20) not null unique primary key,<br/>
+offer_name varchar(20) not null,<br/>
+offer_discount varchar(20) not null,<br/>
+offer_coupon varchar(250) not null unique,<br/>
+orffer_start_date varchar(10) not null,<br/>
+offer_end_date varchar(10) not null<br/>
+);<br/>
+insert into offer_details<br/>
+values("of001","big billion days","20%","SP2001","01/04/2023","20/04/2023"),<br/>
+("of002","Great indian sale","30%","SP20023","02/04/2023","25/04/2023");<br/>
+            </code>
+          </div>
+        </div>
+        <div className="card my-3">
+          <div className="card-body">
+            <h5 className="card-title">Phase 7</h5>
+            <h6 className="card-subtitle mb-2 text-muted">
+              Create Offer Applicable Products
+            </h6>
+            <code className="card-text">
+            create table offer_applicable_products(<br/>
+offer_id varchar(20) not null,<br/>
+foreign key (offer_id) references offer_details(offer_id),<br/>
+product_id varchar(20) not null,<br/>
+foreign key (product_id) references product_details(product_id),<br/>
+offer_budget varchar(20) not null,<br/>
+offer_applicable_time varchar(20) not null<br/>
+);<br/>
+insert into offer_applicable_products<br/>
+values("of001","pr001","1000rs","once per user"),<br/>
+("of002","pr002","2000rs","unlimited times");<br/>
             </code>
           </div>
         </div>
