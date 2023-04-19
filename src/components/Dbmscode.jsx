@@ -421,7 +421,28 @@ values("or041","pr041","ui111","orno041","4","Upi","267","pending","Delhivery","
 ("or087","pr087","ui117","orno087","6","net banking","340","cancelled","X-pressbees","cod","29/03/2023"),<br/>
 ("or088","pr088","ui118","orno088","1","card","450","rto","Dtdc","cod","28/04/2023"),<br/>
 ("or089","pr089","ui119","orno089","2","Upi","899","delivered","e-com","prepaid","3/05/2023"),<br/>
-("or090","pr090","ui120","orno090","1","card","1200","shipped","bluedart","prepaid","11/05/2023");<br/>
+("or090","pr090","ui120","orno090","1","card","1200","shipped","bluedart","prepaid","11/05/2023"),<br/>
+("or030","pro22","ui119","orno039","2","upi","99","delivered","bluedart","cod","3/05/2023"),<br/>
+("or031","pro24","ui121","orno040","1","wallet","115","shipped","e-kart","cod","3/05/2023"),<br/>
+("or032","pro21","ui121","orno041","2","upi","255","delivered","Delhivery","Prepaid","3/06/2023"),<br/>
+("or033","pro54","ui122","orno042","1","card","219","shipped","Delhivery","cod","3/06/2023"),<br/>
+("or034","pro51","ui121","orno043","2","wallet","139","pending","bluedart","Prepaid'","3/06/2023"),<br/>
+("or035","pro56","ui123","orno044","3","card","284","shipped","X-pressbees","cod","3/06/2023"),<br/>
+("or036","pro28","ui120","orno046","2","upi","503","delivered","e-kart","Prepaid","3/07/2023"),<br/>
+("or037","pro29","ui120","orno047","1","card","3419","shipped","X-pressbees","cod","3/07/2023"),<br/>
+("or038","pro57","ui119","orno048","3","net banking","249","delivered","bluedart","Prepaid","3/07/2023"),<br/>
+("or039","pro60","ui119","orno049","1","upi","282","shipped","X-pressbees","Prepaid","3/07/2023"),<br/>
+("or040","pr061","ui119","orno050","2","upi","99","delivered","bluedart","cod","3/05/2023"),<br/>
+("or041","pr062","ui130","orno051","1","wallet","115","shipped","e-kart","cod","3/05/2023"),<br/>
+("or042","pr063","ui129","orno052","2","upi","255","delivered","Delhivery","Prepaid","3/06/2023"),<br/>
+("or043","pr064","ui121","orno053","1","card","219","shipped","Delhivery","cod","3/06/2023"),<br/>
+("or044","pr065","ui123","orno054","2","wallet","139","pending","bluedart","Prepaid'","3/06/2023"),<br/>
+("or045","pr066","ui113","orno055","3","card","284","shipped","X-pressbees","cod","3/06/2023"),<br/>
+("or046","pr067","ui124","orno056","2","upi","503","delivered","e-kart","Prepaid","3/07/2023"),<br/>
+("or047","pr068","ui128","orno057","1","card","3419","shipped","X-pressbees","cod","3/07/2023"),<br/>
+("or048","pr069","ui116","orno058","3","net banking","249","delivered","bluedart","Prepaid","3/07/2023"),<br/>
+("or049","pr070","ui111","orno059","1","upi","282","shipped","X-pressbees","Prepaid","3/07/2023");<br/>
+
 
             </code>
           </div>
