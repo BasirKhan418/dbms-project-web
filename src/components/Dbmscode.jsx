@@ -442,8 +442,11 @@ orffer_start_date varchar(10) not null,<br/>
 offer_end_date varchar(10) not null<br/>
 );<br/>
 insert into offer_details<br/>
-values("of001","big billion days","20%","SP2001","01/04/2023","20/04/2023"),<br/>
-("of002","Great indian sale","30%","SP20023","02/04/2023","25/04/2023");<br/>
+values("of003","big billion days","40%","sp20025","02/04/2023","28/04/2023"),<br/>
+("of004","Greate indian sale","20%","sp2007","01/04/2023", "26/04/2023"),<br/>
+("of005","holi sale","60%","sp20045","05/05/023","29/04/2023"),<br/>
+("of006","dhanteras sale","40%","sp20048","03/05/023","26/04/2023"),<br/>
+("of007","diwali sale","40%","sp20014","03/06/023","27/06/2023");<br/>
             </code>
           </div>
         </div>
@@ -463,8 +466,16 @@ offer_budget varchar(20) not null,<br/>
 offer_applicable_time varchar(20) not null<br/>
 );<br/>
 insert into offer_applicable_products<br/>
-values("of001","pr001","1000rs","once per user"),<br/>
-("of002","pr002","2000rs","unlimited times");<br/>
+values("of003","pro21","1000rs","once per user"),<br/>
+("of003","pro22","2000rs","unlimited times"),<br/>
+("of003","pro58","1000rs","twice per user"),<br/>
+("of004","pro24","1000rs","once per user"),<br/>
+("of007","pro54","2000rs","twice per user"),<br/>
+("of004","pro55","2000rs","once per user"),<br/>
+("of004","pro23","1000rs","unlimited times"),<br/>
+("of007","pro27","2000rs","once per user"),<br/>
+("of005","pro59","1000rs","twice per user"),<br/>
+("of007","pro56","1000rs","once per user");<br/>
             </code>
           </div>
         </div>
