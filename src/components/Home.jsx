@@ -70,13 +70,8 @@ const Home = () => {
 <iframe className="yt" src="https://www.youtube.com/embed/uj4fy4kpaOA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 </div>
 <div className="mx-3 my-3">
-<iframe className="yt" src="https://www.youtube.com/embed/_2msghvRn5M" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+<iframe className="yt" src="https://www.youtube.com/embed/u-AMQulSbM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-<div className="mx-3 my-3">
-<iframe className="yt" src="https://www.youtube.com/embed/9HcUfc6_0Oc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullScreen></iframe>
-</div>
-
-
 </div>
 <h1 className='text-center my-3 mx-3 font'>
     Time Table Of the Project
