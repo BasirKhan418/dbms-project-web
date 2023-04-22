@@ -464,10 +464,25 @@ offer_end_date varchar(10) not null<br/>
 );<br/>
 insert into offer_details<br/>
 values("of003","big billion days","40%","sp20025","02/04/2023","28/04/2023"),<br/>
-("of004","Greate indian sale","20%","sp2007","01/04/2023", "26/04/2023"),<br/>
+("of004","Greate indian sale","20%","sp2807","01/04/2023", "26/04/2023"),<br/>
 ("of005","holi sale","60%","sp20045","05/05/023","29/04/2023"),<br/>
 ("of006","dhanteras sale","40%","sp20048","03/05/023","26/04/2023"),<br/>
-("of007","diwali sale","40%","sp20014","03/06/023","27/06/2023");<br/>
+("of007","diwali sale","40%","sp20014","03/06/023","27/06/2023"),<br/>
+("of008","big billion days","10%","SP2006","04/04/2023","18/04/2023"),<br/>
+("of009","Great indian sale","15%","SP2007","02/04/2023","20/04/2023"),<br/>
+("of010","Dussehra sale","25%","SP2008","05/04/2023","25/04/2023"),<br/>
+("of011","Diwali sale","50%","SP2009","08/04/2023","18/04/2023"),<br/>
+("of012","big billion days","30%","SP20010","15/04/2023","30/04/2023"),<br/>
+("of013","Big Billion Days","44%","SP200016","01/09/2023","20/09/2023"),<br/>
+("of014","Greate Indian Festival","60%","SP200017","01/10/2023","20/10/2023"),<br/>
+("of015","Diwali Sale","50%","SP200018","01/10/2023","08/10/2023"),<br/>
+("of016","EID Sale","50%","SP200019","01/04/2023","20/04/2023"),<br/>
+("of017","New Year Sale","15%","SP200020","25/12/2023","01/01/2024"),<br/>
+("of018","purple I heart sale","40%","PUP5001","29/04/2023","29/05/2023"),<br/>
+("of019","MY Glam Beauty sale","50%","MYGLAM50","01/05/2023","30/05/2023"),<br/>
+("of020"," The green day sale","30%","GREEN30","20/04/2023","20/05/2023"),<br/>
+("of021","Maha sale","60%","Maha009","01/04/2023","01/06/2023"),<br/>
+("of022","Independence sale","50%","TONIGHT15","13/09/2023","16/09/2023");<br/>
             </code>
           </div>
         </div>
@@ -488,19 +503,78 @@ offer_applicable_time varchar(20) not null<br/>
 );<br/>
 insert into offer_applicable_products<br/>
 values("of003","pro21","1000rs","once per user"),<br/>
-("of003","pro22","2000rs","unlimited times"),<br/>
-("of003","pro58","1000rs","twice per user"),<br/>
+("of004","pro22","2000rs","unlimited times"),<br/>
+("of005","pro58","1000rs","twice per user"),<br/>
 ("of004","pro24","1000rs","once per user"),<br/>
 ("of007","pro54","2000rs","twice per user"),<br/>
-("of004","pro55","2000rs","once per user"),<br/>
-("of004","pro23","1000rs","unlimited times"),<br/>
-("of007","pro27","2000rs","once per user"),<br/>
-("of005","pro59","1000rs","twice per user"),<br/>
-("of007","pro56","1000rs","once per user");<br/>
+("of006","pro55","2000rs","once per user"),<br/>
+("of008","pro23","1000rs","unlimited times"),<br/>
+("of009","pro27","2000rs","once per user"),<br/>
+("of010","pro59","1000rs","twice per user"),<br/>
+("of007","pro56","1000rs","once per user"),<br/>
+("of016","pro21","199rs","once per user"),<br/>
+("of017","pr069","150rs","Unlimited Times"),<br/>
+("of018","pr085","200rs","Three times per user"),<br/>
+("of019","pr110","4299rs","once per user"),<br/>
+("of020","pr105","499rs","Twice per user"),<br/>
+("of021","pr100","499rs","once per user"),<br/>
+("of022","pr045","359rs","once per user"),<br/>
+("of009","pr041","1000rs","once per user"),<br/>
+("of006","pr042","2000rs","unlimited times"),<br/>
+("of007","pr043","1500rs","twice per user"),<br/>
+("of008","pr044","500rs","unlimited times"),<br/>
+("of009","pr045","100rs","once per user"),<br/>
+("of010","pr046","2500rs","unlimited times"),<br/>
+("of006","pr047","3000rs","twice per user"),<br/>
+("of007","pr048","1000rs","unlimited times"),<br/>
+("of008","pr049","2000rs","once per user"),<br/>
+("of010","pr050","2600rs","unlimited times"),<br/>
+("of012","pr040","1000rs","once per user"),<br/>
+("of003","pr041","200rs","unlimited times"),<br/>
+("of011","pr042","500rs","twice per user"),<br/>
+("of004","pr043","1000rs","once per user"),<br/>
+("of016","pr044","500rs","twice per user"),<br/>
+("of011","pr045","1000rs","once per user"),<br/>
+("of004","pr046","2000rs","unlimited times"),<br/>
+("of013","pr047","2000rs","once per user"),<br/>
+("of014","pr048","3000rs","twice per user"),<br/>
+("of010","pr049","1000rs","once per user");<br/>
             </code>
           </div>
         </div>
-      
+        <div className="card my-3">
+          <div className="card-body">
+            <h5 className="card-title">Phase 8</h5>
+            <h6 className="card-subtitle mb-2 text-muted">
+              Create Review Details
+            </h6>
+            <code className="card-text">
+            create table review_products(<br/>
+review_id varchar(200) not null unique primary key,<br/>
+user_id varchar(200) not null,<br/>
+foreign key (user_id) references userdetails(user_id),<br/>
+product_id varchar(200) not null,<br/>
+foreign key (product_id) references product_details(product_id),<br/>
+review_from_5stars varchar(200),<br/>
+review_comment varchar(200)<br/>
+);<br/>
+insert into review_products<br/>
+values("re001","ui113","pr011","****","product has great quality"),<br/>
+("re002","ui115","pr013","***","not so good"),<br/>
+("re004","ui118","pr035","****","Awsome"),<br/>
+("re005","ui118","pr092","**","not worth it"),<br/>
+("re006","ui116","pr097","*****","amazing product"),<br/>
+("re007","ui111","pr033","*","donot like the product at all"),<br/>
+("re008","ui117","pr031","****","product has great quality"),<br/>
+("re009","ui124","pro57","****","love it"),<br/>
+("re010","ui122","pr042","***","product has great quality"),<br/>
+("re011","ui129","pr049","**","Awesome"),<br/>
+("re012","ui111","pr081","*","not good"),<br/>
+("re013","ui112","pr082","**","love it"),<br/>
+("re014","ui119","pr089","***","so nice product");<br/>
+            </code>
+          </div>
+        </div>
       </div>
 <Footer/>
     </div>
