@@ -574,7 +574,13 @@ values("re001","ui113","pr011","****","product has great quality"),<br/>
 ("re0015","ui119","pro22","****","good equality"),<br/>
 ("re0016","ui121","pro21","****"," very good"),<br/>
 ("re0017","ui120","pro28","****","Awesome"),<br/>
-("re0018","ui119","pro57","*****","love it");<br/>
+("re0018","ui119","pro57","*****","love it"),<br/>
+("re0019","ui117","pr031","****","product has great quality"),<br/>
+("re0020","ui111","pr033","****","Nice teddy loved it"),<br/>
+("re0021","ui118","pr035","**","Not so good"),<br/>
+("re0022","ui112","pr110","*****","Excellent quality"),<br/>
+("re0023","ui114","pr039","**","Not so good"),<br/>
+("re0024","ui118","pr076","***","Good");<br/>
             </code>
           </div>
         </div>
