@@ -375,14 +375,13 @@ order_number varchar(20) not null,<br/>
 order_quantity varchar(250),<br/>
 order_payment_method varchar(200) not null,<br/>
 order_price varchar(10) not null,<br/>
-order_status varchar(10) not null,<br/>
+order_status varchar(200) not null,<br/>
 order_courier varchar(20) not null,<br/>
 order_shipment_type varchar(200),<br/>
 order_shipdate varchar(200)<br/>
 );<br/>
 insert into order_details<br/>
-values("or041","pr041","ui111","orno041","4","Upi","267","pending","Delhivery","Prepaid","14/04/2023"),<br/>
-("or042","pr042","ui112","orno042","1","wallet","100","delivered","Dtdc","cod","17/04/2023"),<br/>
+values
 ("or001","pr011","ui113","orno011","5","Upi","12,495","delivered","Delhivery","Prepaid","01/04/2023"),<br/>
 ("or002","pr013","ui115","orno012","1","wallet","799","delivered","Dtdc","cod","17/04/2023"),<br/>
 ("or003","pr014","ui114","orno013","2","cod","1998","pending","Bluecart","Prepaid","23/04/2023"),<br/>
