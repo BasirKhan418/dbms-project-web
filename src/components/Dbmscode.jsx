@@ -455,8 +455,8 @@ values
             <code className="card-text">
             create table offer_details(<br/>
 offer_id varchar(20) not null unique primary key,<br/>
-offer_name varchar(20) not null,<br/>
-offer_discount varchar(20) not null,<br/>
+offer_name varchar(200) not null,<br/>
+offer_discount varchar(200) not null,<br/>
 offer_coupon varchar(250) not null unique,<br/>
 orffer_start_date varchar(10) not null,<br/>
 offer_end_date varchar(10) not null<br/>
