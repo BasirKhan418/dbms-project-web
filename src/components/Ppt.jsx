@@ -9,18 +9,22 @@ const Ppt = (props) => {
   }
   else{
   navigate("/login")
-  props.showAlert("Access Denied Please Login to access this page ","danger")
+  props.showAlert("Access Denied .Please Login to access this page ","danger")
   }
 })
   return (
     <>
-    <h1 className='text-center my-3 mx-3 font' style={{position:'relative',top:50}}>
-    Download and view PPT
-  </h1>
-    <div className="container my-10 mx-10 d-flex justify-content-center align-items-center" style={{position:'relative',top:50}}>
-    <p>no ppt here add to view</p>
-    </div>
+    <div className="container" style={{position:'relative',top:60}}>
 
+    <h5 className="card-header">
+   Name:-K.sonali<br/>
+   Topic :- Derived Attributes in c
+  </h5>
+  <div className="card-body">
+    <a href="https://www.slideshare.net/TarunSharma24/data-types-in-c-56342387" className="btn btn-primary mx-2" target='_blank'rel="noreferrer">Download PPT</a>
+  </div>
+
+  </div>
     <Footer/>
     </>
   )
