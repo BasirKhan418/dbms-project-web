@@ -1,88 +1,15 @@
 import React from 'react'
-import Slider from './Slider'
-import Team from './Team'
-import Timetable from './Timetable'
-import {Link} from "react-router-dom";
-import Footer from './Footer';
+
 const Home = () => {
   return (
-    <>
-    <div className="container">
-     <Slider/>
-     </div>
-     <div className="container my-10">
-
-     
-     <div className="card">
-  <h5 className="card-header">
-    Overview
-  </h5>
-  <div className="card-body">
-    <h5 className="card-title">Ecommerce Database </h5>
-    <p className="card-text">Hii Guys ,DBMS Grp-3 are making the project called E-commerce database a real time shopping application database .Contribute Yourself By Clicking get started</p>
-    <Link to="/code" className="btn btn-primary">Get Started</Link>
-  </div>
-</div>
-<div className="card">
-  <h5 className="card-header">
-    C Project
-  </h5>
-  <div className="card-body mx-2">
-    <h5 className="card-title">Customer Billing System</h5>
-    <p className="card-text">Hii Guys ,Group-3 are making the project called Customer Billing System a real time billing application .Contribute Yourself By Clicking get started</p>
-    <Link to="/code" className="btn btn-primary">Get Started</Link>
-  </div>
-</div>
-</div>
-<Team/>
-<div className="container">
-<div className="card">
-  <h5 className="card-header">
-    See Project Virtually
-  </h5>
-  <div className="card-body">
-<h5 className="card-title">Ecommerce Database </h5>
-    <p className="card-text">Hii Guys ,DBMS Grp-3 are making the project called E-commerce database a real time shopping application database .See the project virtually by clicking on virtual experience button given below:</p>
-    <Link to="/virtualexp" className="btn btn-primary">Virtual Experience</Link>
-  </div>
-</div>
-<div className="card">
-  <h5 className="card-header">
-    See Project Virtually
-  </h5>
-  <div className="card-body">
-<h5 className="card-title">Customer Billing System</h5>
-    <p className="card-text">Hii Guys ,Group-3 are making the project called Customer Billing System a real time billing application .See the project virtually by clicking on virtual experience button given below:</p>
-    <Link to="/virtualc" className="btn btn-primary">Virtual Experience</Link>
-  </div>
-</div>
-</div>
-<div className="container">
-<h1 className='text-center my-3 mx-3 font'>
-    See the supporting Videos to help the project
-  </h1>
-</div>
-<div className="container display">
-  <div className="mx-3 my-3">
-  <iframe className="yt"src="https://www.youtube.com/embed/7S_tz1z_5bA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-  </div>
-<div className="mx-3 my-3">
-<iframe className="yt" src="https://www.youtube.com/embed/uj4fy4kpaOA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-</div>
-<div className="mx-3 my-3">
-<iframe className="yt" src="https://www.youtube.com/embed/u-AMQulSbM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-</div>
-<h1 className='text-center my-3 mx-3 font'>
-    Time Table Of the Project
-  </h1>
-  <div className="container">
-    <Timetable/>
-  </div>
-  <Footer/>
-    </>    
-   
+    <div className='container'  style={{position:'relative',top:100,background:'white'}}>
+      <h1>Something big is comming sooon <span style={{color:'blue'}}>@Project management app</span></h1><br/>
+      <h1>You can access if you can not use for first time if any query reach out <span style={{color:'blue'}}>@basirkhan</span></h1><br/>
+      <h1>In this update completely changes in ui and tools boost up the performance and adding a lots of features</h1><br/>
+      <h1>In this Update we rewrite the complete application in <span style={{color:'blue'}}>@Next.js</span></h1><br/>
+      <h1>We shall get back you shortly .Thanks <span style={{color:'blue'}}>@Team Project Management App</span></h1><br/>
+      <h1><span style={{color:'blue'}}>#Stay Tuned</span></h1>
+    </div>
   )
-}
-
+} 
 export default Home
